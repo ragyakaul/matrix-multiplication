@@ -19,7 +19,6 @@ class Matrix:
     def numCols(self):
         return len(self.listOfLists[0])
 
-       
     def littlePrettierPrinter(self):
         for row in self.listOfLists:
             print(row)
